@@ -28,5 +28,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: horborlab.enersys.io/harbor/projects/2/repositories/busybox:latest
-        
+          tags: horborlab.enersys.io/harbor/lab1/busybox:latest

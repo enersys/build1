@@ -20,7 +20,7 @@ jobs:
 
       # Step 3: Log in to Harbor
       - name: Log in to Harbor
-        run: echo ${{ secrets.HARBOR_PASSWORD }} | docker login https://harborlab.enersys.io -u ${{ secrets.HARBOR_USERNAME }} --password-stdin
+        run: echo ${{ secrets.HARBOR_PASSWORD }} | docker login https://horborlab.enersys.io -u ${{ secrets.HARBOR_USERNAME }} --password-stdin
 
     #   # Step 3: Log in to the container registry
     #   - name: Log in to Docker Hub
